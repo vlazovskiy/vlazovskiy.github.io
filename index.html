@@ -93,14 +93,14 @@
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Data Scientist</h3>
               <div class="subheading mb-3">Ubisoft</div>
-              <p>I work on the team which specializes in getting to know our players as best as we can. We use segmentation techniques to build organic audiences of players to serve as marketing profiles; we also model user journey throughout our ecosystem. Some highlights of my work include:
+              <p>I work on the team which specializes in getting to know our players as best as we can. We model user journey throughout our ecosystem and use segmentation techniques to build organic audiences of players to serve as marketing profiles. Some highlights of my work include:
                 <ul class="fa-ul mb-0">
             <li>
               <i class="fa-li fa fa-circle"></i>
-              Built the back-end and front-end for an executive dashboard to track marketing spend, sales, user acquisition, and other key metrics.</li>
+              Built the back-end and front-end for an executive dashboard to track user acquisition, marketing spend, sales, and other key metrics.</li>
             <li>
               <i class="fa-li fa fa-circle"></i>
-              Model and track "player journey moments" from their arrival into our ecosystem to their long-term behavior patterns: playtime, spending, lifetime, etc.</li>
+              Model and track player journey moments from their arrival into our ecosystem to their long-term behavior patterns: playtime, spending, lifetime, etc.</li>
           </ul></p>
             </div>
             <div class="resume-date text-md-right">
@@ -153,66 +153,13 @@
           </div>
         </div>
 
-      </section>
-
-      <hr class="m-0">
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
-        <div class="my-auto">
-          <h2 class="mb-5">Projects</h2>
-          <ul class="fa-ul mb-0">
-            <li>
-              <a href="https://towardsdatascience.com/travel-time-optimization-with-machine-learning-and-genetic-algorithm-71b40a3a4c2">
-              <b>Itinerary Optimization With Machine Learning</b></a>. The goal of this project was to optimize travel routes for a delivery vehicle by using machine learning model predictions. It was a two-component problem: first, I trained a machine learning model on the data to predict how long it would take a delivery vehicle to go from point one point to another, and then I fed these predictions into a genetic algorithm which decided which is the most time efficient visit order for a given set of points. Trip durations were predicted by a gradient boosted regression model, and I set up a Spark cluster on Google Compute Engine Instance to process 450M records. Code and presentation can be found <a href="https://github.com/vlazovskiy/route-optimizer-machine-learning">here</a>.
-            </li>
-            <br/>
-            <li>
-              <a href="https://towardsdatascience.com/whats-in-your-customer-s-next-shopping-cart-73d64287ec53">
-              <b>Predicting Item Purchases for Instacart</b></a>. In this project, I forecast whether a customer would reoder a certain product. Essentially, this was classification problem with two classes: 1 if a user reordered a product and 0 otherwise. The data set was taken from Kaggle; I engineered target variable, trained and tuned a logistic regression model with special attention to class imbalance in the data. AWS EC2 was used to process and model on 32M records. Code and presentation can be found <a href="https://github.com/vlazovskiy/predicting-instacart-purchases">here</a>.
-            </li>
-            <br/>
-            <li>
-              <a href="https://towardsdatascience.com/predicting-film-ratings-with-simple-linear-regression-cabe35bddcde">
-              <b>Predicting Item Purchases for Instacart</b></a>. For this project, I scraped IMDb with Selenium and BeautifulSoup and analyzed movie trends, making predictions on the IMDb rating based on different sets of features. I trained and cross-validated a model, exploring Lasso and Ridge techniques for regularization. Code and presentation can be found <a href="https://github.com/vlazovskiy/predicting-film-ratings">here</a>.
-            </li>
-            <br/>
-            <li>
-              <b>DotA 2 Player Analytics</b>. For this project, I chose popular online multiplayer game DotA 2. I analyzed a player's account and looked for insights: gameplay patterns, item choices, and various in-game metrics. Anonymized data was collected using DotA developer API. Code and presentation available <a href="https://github.com/vlazovskiy/dota2-player-analytics">here</a>.
-            </li>
-            <br/>
-            <li>
-              <b>Income Classification in the US</b>. The goal of this project is to train and tune a binary random forest classifier to predict whether a person makes below or above the 50k threshold and analyze what features are correlated with income. I trained a random forest binary classifier to predict income bracket, performed grid search and randomized search to optimize model parameters. Code can be found <a href="https://github.com/vlazovskiy/us-income-classification">here</a>.
-            </li>
-
-        </div>
-      </section>   
+      </section>  
 
       <hr class="m-0">
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
         <div class="my-auto">
           <h2 class="mb-5">Skills</h2>
-          <div class="subheading mb-3"></div>
-          <ul class="list-inline dev-icons">
-            <li class="list-inline-item">
-              <i class="fab fa-python"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-aws"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-google"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-git"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-linux"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-stack-overflow"></i>
-            </li>
-          </ul>
           <div class="subheading mb-3">Programming &amp; Version Control</div>
           <ul class="fa-ul mb-0">
             <li>
@@ -245,13 +192,48 @@
               Scikit-learn</li>
             <li>
               <i class="fa-li fa fa-check"></i>
-              BeautifulSoup</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
               SQLAlchemy</li>  
             <li>
               <i class="fa-li fa fa-check"></i>
               PySpark</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              BeautifulSoup</li>
+          </ul>
+          <br/>
+          <div class="subheading mb-3">Visualization</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Tableau</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Plotly</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Seaborn</li>
+          </ul>
+          <br/>
+          <div class="subheading mb-3">Databases &amp; Cloud</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              PostgreSQL</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              MongoDB</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Teradata</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Hadoop/Impala</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              AWS EC2</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Google Compute Engine</li>
           </ul>
           <br/>
           <div class="subheading mb-3">Modeling &amp; Machine Learning</div>
@@ -272,43 +254,40 @@
               <i class="fa-li fa fa-check"></i>
               Dimensionality Reduction</li>  
           </ul>
-          <br/>
-          <div class="subheading mb-3">Visualization</div>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Tableau</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Plotly</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Seaborn</li>
-          </ul>
-          <br/>
-          <div class="subheading mb-3">Databases &amp; Cloud</div>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              AWS EC2</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Google Compute Engine</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              PostgreSQL</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              MongoDB</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Teradata</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Teradata</li>
-          </ul>
         </div>
       </section>
+
+      <hr class="m-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
+        <div class="my-auto">
+          <h2 class="mb-5">Projects</h2>
+          <ul class="fa-ul mb-0">
+            <li>
+              <a href="https://towardsdatascience.com/travel-time-optimization-with-machine-learning-and-genetic-algorithm-71b40a3a4c2">
+              <b>Itinerary Optimization With Machine Learning</b></a>. The goal of this project was to optimize travel routes for a delivery vehicle by using machine learning model predictions. It was a two-component problem: first, I trained a machine learning model on the data to predict how long it would take a delivery vehicle to go from point one point to another, and then I fed these predictions into a genetic algorithm which decided which is the most time efficient visit order for a given set of points. Trip durations were predicted by a gradient boosted regression model, and I set up a Spark cluster on Google Compute Engine Instance to process 450M records. Code and presentation can be found <a href="https://github.com/vlazovskiy/route-optimizer-machine-learning">here</a>.
+            </li>
+            <br/>
+            <li>
+              <a href="https://towardsdatascience.com/whats-in-your-customer-s-next-shopping-cart-73d64287ec53">
+              <b>Predicting Item Purchases for Instacart</b></a>. In this project, I forecast whether a customer would reoder a certain product. Essentially, this was classification problem with two classes: 1 if a user reordered a product and 0 otherwise. The data set was taken from Kaggle; I engineered target variable, trained and tuned a logistic regression model with special attention to class imbalance in the data. AWS EC2 was used to process and model on 32M records. Code and presentation can be found <a href="https://github.com/vlazovskiy/predicting-instacart-purchases">here</a>.
+            </li>
+            <br/>
+            <li>
+              <a href="https://towardsdatascience.com/predicting-film-ratings-with-simple-linear-regression-cabe35bddcde">
+              <b>Predicting Item Purchases for Instacart</b></a>. For this project, I scraped IMDb with Selenium and BeautifulSoup and analyzed movie trends, making predictions on the IMDb rating based on different sets of features. I trained and cross-validated a model, exploring Lasso and Ridge techniques for regularization. Code and presentation can be found <a href="https://github.com/vlazovskiy/predicting-film-ratings">here</a>.
+            </li>
+            <br/>
+            <li>
+              <b>DotA 2 Player Analytics</b>. For this project, I chose popular online multiplayer game DotA 2. I analyzed a player's account and looked for insights: gameplay patterns, item choices, and various in-game metrics. Anonymized data was collected using DotA developer API. Code and presentation available <a href="https://github.com/vlazovskiy/dota2-player-analytics">here</a>.
+            </li>
+            <br/>
+            <li>
+              <b>Income Classification in the US</b>. The goal of this project is to train and tune a binary random forest classifier to predict whether a person makes below or above the 50k threshold and analyze what features are correlated with income. I trained a random forest binary classifier to predict income bracket, performed grid search and randomized search to optimize model parameters. Code can be found <a href="https://github.com/vlazovskiy/us-income-classification">here</a>.
+            </li>
+
+        </div>
+      </section> 
 
       <hr class="m-0">
 
@@ -334,7 +313,7 @@
               <div>computer science coursework</div>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">2019-2020</span>
+              <span class="text-primary">2019 — present</span>
             </div>
           </div>
         </div>
@@ -355,3 +334,27 @@
   </body>
 
 </html>
+
+
+<!--          <div class="subheading mb-3"></div>
+          <ul class="list-inline dev-icons">
+            <li class="list-inline-item">
+              <i class="fab fa-python"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-aws"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-google"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-git"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-linux"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-stack-overflow"></i>
+            </li>
+          </ul>
+          -->
